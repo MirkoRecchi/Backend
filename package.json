@@ -1,0 +1,24 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de prueba",
+  "homepage": "https://github.com/MirkoRecchi/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/MirkoRecchi/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MirkoRecchi/Backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
