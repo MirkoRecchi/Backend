@@ -1,8 +1,7 @@
-const nombre = "Mirko";
-const apellido = "Recchi";
+const variable = 21;
+const variable2 = 23;
 
-console.log("Hola mi nombre es : " + nombre);
-console.log("Mi apellido es : " + apellido);
-console.log("Estoy programando desde NODE.JS");
-console.log("Este es otro mensaje aaprte para que vea que funciona");
-console.log("Este es otro mensaje")
+fetch()
+.then(resultado => resultado = variable+variable2)
+.finally(console.log("Este es el final del fetch"))
+.catch(console.log("No hay errores por el momento"));
