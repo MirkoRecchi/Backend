@@ -1,7 +1,8 @@
 const variable = 21;
 const variable2 = 23;
+const letras = "Hola como estas" ;
 
-fetch()
-.then(resultado => resultado = variable+variable2)
-.finally(console.log("Este es el final del fetch"))
-.catch(console.log("No hay errores por el momento"));
+console.log("La primera variable tiene el valor de :" + variable);
+console.log("La segunda variable tiene el valor de :" + variable2);
+console.log(typeof variable);
+console.log(typeof letras);
