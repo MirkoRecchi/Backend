@@ -1,4 +1,3 @@
-
 let numero : number = 2;
 
 type tipoKarting = 1 | 2 | 4 | 3 | 6 ;
